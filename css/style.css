@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* @font-face {
+    font-family: 'kobzar';
+    src: url('../fonts/8926-webfont.eot');
+    src: url('../fonts/8926-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/8926-webfont.woff2') format('woff2'),
+         url('../fonts/8926-webfont.woff') format('woff'),
+         url('../fonts/8926-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear:both;
+}
+
+/* <header> */
+header {
+    padding-bottom: 100px;
+    background: linear-gradient(to right, #e8e8e8, #eaeaea);
+}
+
+.map_tel {
+    text-align: right;
+}
+
+.map {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.tel li>a {
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.links {
+    text-align: center;
+    font-size: 0;
+    
+}
+
+.links li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 16px;
+    
+}
+
+.links li>a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    
+}
+
+.links li>a::before {
+
+    content: " ";
+    background-color:#185e90;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 5px;
+    height: 5px;
+}
+
+/* <main> */
+
+.wrapper {
+    margin-top: 10px;
+}
+/* section1 */
+.baner {
+    background: url(../img/банер\ \(1\).png) no-repeat center/cover;
+    position: relative;
+    max-width: 1200px;
+    
+}
+
+.bluearrow {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    max-width: 45%;
+    position: absolute;
+       
+} 
+
+.text2 img {
+    position: relative; 
+    display: block;
+    text-decoration: none;
+    float:  left;
+    padding: 50px 60px 90px 40px;
+    background: url(../img/стрелка.png) no-repeat left/cover;
+    
+}
+
+.text2 h2 {
+    content: " ";
+    position: absolute;
+    text-shadow: -1px -1px 0px white;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    /* font: 400 20px/1.5 black; */
+    text-transform: uppercase;
+    width: 250px;
+    padding-left: 120px;
+    padding-top: 125px;
+    
+}
+
+.text1 { 
+    float: right;
+    width: 66%;
+    font-family: 'Roboto', sans-serif; 
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+/* section2 */
+
+.services {
+    background-color: white;
+    margin-bottom: 50px;
+ 
+}
+
+.services .container div {
+    float: left;
+    padding-top: 50px;
+}
+
+.services .container div>a {
+    color: #185e90;
+    padding-left: 5px;
+}
+
+
+.services h3 {
+  
+    font-size: 16px;
+    position: relative;
+    padding-left: 15px;
+    color:#185e90;
+}
+
+.services h3::before {
+    display: block;
+    content: " ";
+    background-color:#185e90;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+
+}
+
+.services div>ul {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+
+}
+
+.services div>ul li {
+    padding: 5px;
+}
+
+.services div>ul a {
+    color: black;
+}
+
+.business {
+    width: 25%;
+    display: inline-block;
+    padding-left: 90px;
+    position: relative;
+    
+}
+
+.business::before {
+  
+    content: " ";
+    position: absolute;
+    background: url(../img/business1.png) no-repeat left;
+    top: 70px;
+    left: 0;
+    width: 70px;
+    min-height: 140px;
+    
+}
+
+
+.business::after {
+    content: " ";
+    position: absolute;
+    background-color: #6f6f6f;
+    top: 50px;
+    left: 65px;
+    width: 1px;
+    min-height: 200px;
+    box-shadow: 3px 1px 5px;
+
+}
+
+.user {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding-left: 100px;
+}
+
+.user::before {
+  
+    content: " ";
+    position: absolute;
+    background: url(../img/user2.png) no-repeat left;
+    top: 70px;
+    left: 0;
+    width: 70px;
+    min-height: 130px;
+}
+
+.user::after {
+    content: " ";
+    position: absolute;
+    background-color: #6f6f6f;
+    top: 50px;
+    left: 70px;
+    width: 1px;
+    min-height: 200px;
+    box-shadow: 3px 1px 5px;
+}
+
+.sale {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    padding-left: 110px;
+}
+
+.sale::before {
+    content: " ";
+    position: absolute;
+    background: url(../img/sale3.png) no-repeat left;
+    top: 100px;
+    left: 0;
+    width: 90px;
+    min-height: 100px;
+}
+
+.sale::after {
+    content: " ";
+    position: absolute;
+    background-color: #6f6f6f;
+    top: 50px;
+    left: 85px;
+    width: 1px;
+    min-height: 200px;
+    box-shadow: 3px 1px 5px;
+
+}
+
+/* .news_justice */
+.news_justice {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #e8e8e8, #eaeaea);
+
+}
+
+/* news */
+
+.news {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.news div {
+    margin-top: 20px;
+}
+
+.news div>p {
+    margin-top: 20px;
+}
+
+.news div>h4 a {
+    width: 100px;
+    background-color:#3676a4;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+   
+}
+.news_justice h3 a {
+    color: #3676a4;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+ /* justice */
+
+.justice {
+     width: 60%;
+     float: left;
+     margin: 10px;
+     padding-left: 50px;
+     padding-bottom: 100px;
+ }
+
+.justice p {
+    margin-top: 20px;
+    line-height: 2.5;
+}
+
+/* button */
+
+.button {
+    /* min-width: 1200px; */
+    font-size: 0;
+    position: relative;
+         
+}
+
+.button div {
+    display: inline-block;
+    text-align: center;
+    background-color:#3676a4;
+    padding-left: 15%;
+    padding-right: 15%;
+
+} 
+
+.button::after {
+    content: " ";
+    position: absolute;
+    background: linear-gradient(to right, #135482 50%, #6eabd6 50%);
+    /* background: url(/img/stick.png); */
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    min-height: 25px;
+    margin: 5px;
+}
+
+.button a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.button h2 {
+    font-size: 16px;
+    font-weight: 300;
+} 
+
+/* footer */
+
+footer {
+
+    padding-bottom: 50px;
+    background: linear-gradient(to right, #e8e8e8, #eaeaea);
+    
+}
+
+footer .adress {
+    float: right;
+    width: 300px;
+  
+}
+
+.adress ul li > a {
+    padding-left: 120px;
+    color: black;
+    text-decoration: none;
+} 
+
+/* logo */
+
+footer .sprites{
+    float: left;
+    width: 120px;
+    margin-left: 10%;
+   
+}
+
+footer .sprites .logo {
+    font-size: 0;
+}
+
+footer .sprites .logo li {
+    display: inline-block;
+    font-size: 16px;
+} 
+
+footer .sprites .logo li>a {
+    display: block;
+    width: 28px;
+    height: 24px;
+    float: left;
+    background-image: url(../img/sprites-PS1.png);
+    transition: all 1.5s ease 0.5s;
+}
+
+footer li > a{
+	background-position: 0 -25px;
+}
+footer li + li > a{
+	background-position: -30px -25px;
+}
+footer li + li +li > a{
+	background-position: -60px -25px;
+}
+footer li + li +li +li > a{
+	background-position: -90px -25px;
+}
+
+footer li > a:hover{
+	background-position: 0 0;
+}
+footer li + li > a:hover{
+	background-position: -30px 0;
+}
+footer li + li +li > a:hover{
+	background-position: -60px 0;
+}
+footer li + li +li +li > a:hover{
+	background-position: -90px 0;
+}
+
+/* copyright */
+
+.copyright {
+   
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+.copyright a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+   
+
+
+
+
